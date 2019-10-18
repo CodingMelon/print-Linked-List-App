@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat&display=swap');
+
+#list-form {
+    padding-top: 3%;
+    width: 50%;
+    height: 25vh;
+    text-align: center;
+    margin: auto;
+    /* background-color: rgba(65, 100, 102, 0.521); */
+    /* background-size: 100%; */
+    /* border: 2px solid rgba(70, 47, 32, 0.726); */
+    /* border-radius: 10px; */
+
+}
+
+input {
+    outline: 1;
+    width: 20%;
+    margin: 10px auto;
+
+    background-color: transparent;
+    color: rgb(70, 47, 32);
+    border: 2px solid rgba(70, 47, 32, 0.726);
+    border-radius: 10px;
+    /* border-bottom: 1px solid rgb(70, 47, 32);; */
+    margin: 0 0 10px;
+    /* padding: 10px; */
+    padding: 10px 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+::placeholder { 
+    color: rgba(70, 47, 32, 0.644);
+    opacity: 1; 
+  }
+
+  button{
+    margin: 10px auto;
+    margin-left: 20px;
+    padding: 10px 40px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    background-color: rgba(174, 211, 203, 0.863);
+    color: rgb(70, 47, 32);
+    border: 2px solid rgba(70, 47, 32, 0.726);
+    border-radius: 10px;
+}
+button:hover {
+    background-color: rgb(200, 233, 186);
+  }
+
+p{
+    font-family: 'Caveat', cursive;
+    font-size: 220%;
+    color: rgba(70, 47, 32, 0.781);
+    /* margin-top: 1em; */
+    /* margin-bottom: 0em; */
+
+}  
+h1{
+    font-family: 'Caveat', cursive;
+    font-size: 280%;
+    color: rgba(174, 211, 203, 0.863);
+}
